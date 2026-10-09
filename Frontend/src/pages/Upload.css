@@ -1,0 +1,67 @@
+.upload-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 85vh;
+    background-color: #f8fafc;
+    padding: 20px;
+}
+
+.upload-container h1 {
+    color: #0f172a;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.upload-form {
+    background: #ffffff;
+    padding: 35px;
+    border-radius: 12px;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 420px;
+    border: 1px solid #e2e8f0;
+}
+
+.upload-form input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 16px;
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+    font-size: 1rem;
+    box-sizing: border-box;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.upload-form input:focus {
+    border-color: #10b981;
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(16, 185, 129, 0.15);
+}
+
+.upload-form button[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    background-color: #10b981;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.upload-form button[type="submit"]:hover {
+    background-color: #059669;
+}
+
+.status-message {
+    text-align: center;
+    font-weight: 500;
+    color: #334155;
+    margin-top: 15px;
+}

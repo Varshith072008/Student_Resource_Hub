@@ -1,0 +1,26 @@
+.login-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 85vh;
+    background-color: #f8fafc;
+    padding: 20px;
+}
+
+.login-container h1 {
+    color: #0f172a;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.login-form {
+    background: #ffffff;
+    padding: 35px;
+    border-radius: 12px;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 420px;
+    border: 1px solid #e2e8f0;
+}
